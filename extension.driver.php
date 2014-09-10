@@ -72,7 +72,7 @@
 			return true;
 		}
 
-		public function update($previous_version){
+		public function update($previous_version=false){
 			if( version_compare($previous_version, '2.0', '<') ){
 				$query_change = '';
 
